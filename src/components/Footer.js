@@ -9,10 +9,10 @@ export default function FooterPage() {
           <div className={styles.brandColumn}>
             <Link className={styles.brandLogo} href="/">
               <div className={styles.logoBadge}>
-                S<span className={styles.logoBadgeDot}></span>
+                A<span className={styles.logoBadgeDot}></span>
               </div>
-              <span className={styles.brandName}>Streamvibe</span>
-              <small className={styles.brandTagline}>Premium Stories</small>
+              <span className={styles.brandName}>Aethera</span>
+              {/* <small className={styles.brandTagline}>Premium Stories</small> */}
             </Link>
 
             <p className={styles.brandDescription}>
