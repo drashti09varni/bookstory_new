@@ -123,8 +123,8 @@ export default function RefundPolicyPage() {
               <li><strong>Company Name:</strong> THANVI ENTERPRISE</li>
               <li>
                 <strong>Support Email:</strong>{' '}
-                <a href="mailto:support@streamvibe.cloud" className={styles.link}>
-                  support@streamvibe.cloud
+                <a href="mailto:womenswear001@gmail.com" className={styles.link}>
+                  womenswear001@gmail.com
                 </a>
               </li>
               <li><strong>Mobile: 7048189052</strong> </li>
