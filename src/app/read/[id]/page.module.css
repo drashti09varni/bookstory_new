@@ -1,0 +1,187 @@
+.readerWrapper {
+  min-height: 100vh;
+  background-color: var(--reader-bg);
+  color: var(--reader-text);
+  transition: var(--transition-smooth);
+  display: flex;
+  flex-direction: column;
+}
+
+.topBar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 2rem;
+  background: var(--reader-bg);
+  border-bottom: 1px solid var(--reader-border);
+  transition: var(--transition-smooth);
+}
+
+.backBtn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--reader-muted);
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.backBtn:hover {
+  color: var(--reader-text);
+}
+
+.chapterTitle {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--reader-text);
+  text-align: center;
+}
+
+.settingsToggle {
+  background: none;
+  border: none;
+  color: var(--reader-muted);
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: var(--border-radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition-smooth);
+}
+
+.settingsToggle:hover {
+  background: rgba(139, 92, 246, 0.08);
+  color: var(--reader-text);
+}
+
+.activeSettings {
+  color: var(--accent-primary) !important;
+}
+
+/* Settings Box container in Reader */
+.settingsContainer {
+  max-width: 800px;
+  width: 90%;
+  margin: 1rem auto 0;
+  animation: slideDown 0.25s ease-out;
+}
+
+/* Immersive Text Layout */
+.scrollContainer {
+  flex: 1;
+  overflow-y: auto;
+  padding: 3rem 2rem 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.storyContent {
+  max-width: 700px;
+  width: 100%;
+}
+
+.titleHeader {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.bookTitle {
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: var(--reader-muted);
+  margin-bottom: 0.5rem;
+}
+
+.chapterHeading {
+  font-size: 2.25rem;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.paragraph {
+  line-height: 1.8;
+  margin-bottom: 1.75rem;
+  text-align: justify;
+}
+
+/* Footer Navigation */
+.footer {
+  position: sticky;
+  bottom: 0;
+  z-index: 50;
+  background: var(--reader-bg);
+  border-top: 1px solid var(--reader-border);
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: var(--transition-smooth);
+}
+
+.navBtn {
+  background: none;
+  border: 1px solid var(--reader-border);
+  color: var(--reader-text);
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.5rem 1.25rem;
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.navBtn:hover:not(:disabled) {
+  background: rgba(139, 92, 246, 0.08);
+  border-color: var(--accent-primary);
+}
+
+.navBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* Floating Reading Progress Indicator */
+.progressIndicatorBar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 3px;
+  background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+  transition: width 0.1s ease;
+}
+
+@keyframes slideDown {
+  from { transform: translateY(-10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@media (max-width: 640px) {
+  .topBar {
+    padding: 0.75rem 1rem;
+  }
+  .scrollContainer {
+    padding: 2rem 1rem 4rem;
+  }
+  .chapterHeading {
+    font-size: 1.75rem;
+  }
+  .footer {
+    padding: 1rem;
+  }
+  .navBtn {
+    padding: 0.5rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,147 @@
+.settingsPanel {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem 1.5rem;
+  border-radius: var(--border-radius-md);
+  border: 1px solid var(--reader-border);
+  background: var(--reader-bg);
+  color: var(--reader-text);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2rem;
+  transition: var(--transition-smooth);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.sectionHorizontal {
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--reader-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.optionsRow {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.themeBtn {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid var(--reader-border);
+  cursor: pointer;
+  transition: var(--transition-smooth);
+  position: relative;
+}
+
+.themeBtnLight {
+  background: #ffffff;
+}
+
+.themeBtnSepia {
+  background: #f4edd8;
+}
+
+.themeBtnDark {
+  background: #090d16;
+}
+
+.activeTheme {
+  border-color: var(--accent-primary) !important;
+  transform: scale(1.1);
+  box-shadow: 0 0 8px var(--accent-glow);
+}
+
+.fontBtn {
+  background: none;
+  border: 1px solid var(--reader-border);
+  color: var(--reader-text);
+  border-radius: var(--border-radius-sm);
+  padding: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.fontBtn:hover {
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.activeFontBtn {
+  background: var(--accent-primary) !important;
+  color: #ffffff !important;
+  border-color: var(--accent-primary) !important;
+}
+
+.fontSizeControl {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.sizeBtn {
+  background: none;
+  border: 1px solid var(--reader-border);
+  color: var(--reader-text);
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.sizeBtn:hover {
+  background: rgba(139, 92, 246, 0.08);
+}
+
+.sizeValue {
+  font-size: 0.85rem;
+  font-weight: 700;
+  min-width: 48px;
+  text-align: center;
+}
+
+@media (max-width: 640px) {
+  .settingsPanel {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 1rem;
+    gap: 1rem;
+  }
+  .section {
+    width: 100%;
+  }
+  .optionsRow {
+    width: 100%;
+  }
+  .fontBtn {
+    flex: 1;
+    text-align: center;
+  }
+  .themeBtn {
+    flex: 1;
+    border-radius: var(--border-radius-sm);
+  }
+}

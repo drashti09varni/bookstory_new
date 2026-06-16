@@ -1,0 +1,79 @@
+[
+  {
+    "name": "Admin User",
+    "email": "admin@aethera.com",
+    "username": "admin",
+    "password": "f7e3801a216d86d305e503239e3d3a9b:160f06dd6219b3afe60e2bee6fbf1c262d762ae08eef4188cd14163938acb1218de879807fe7b66db62c991622ffd96b5cb83e9416998733992912fd00a635f9",
+    "isSubscribed": true
+  },
+  {
+    "name": "Guest User",
+    "email": "guest@aethera.com",
+    "username": "guest",
+    "password": "dfb29ad2143e06f81dc4637f8c88bb61:af17bc081c6d7048c78250561e07fdb4ee7adf04824714b3202b30f887219273f2493e21ba9dc1f630691d6b2e1c89a09bfb6e4a6a8a5d14a91b3b1289bc9ebd",
+    "isSubscribed": false
+  },
+  {
+    "name": "Test User",
+    "email": "test@aethera.com",
+    "username": "test",
+    "password": "aa7b9a186fc0efe1913e8fa876a75eae:9735e828495f3439f6fcd8d27bf71c07aa5ba9f83bb04228bab640af2e7c16443f9199ce80a96a86757df5a3d36ac7d9dd30394b9cb63e730ca15512efa03988",
+    "progress": {
+      "whispering-canopy": {
+        "lastChapter": 1,
+        "scrollPercent": 45.5,
+        "updatedAt": "2026-06-03T07:45:26.114Z"
+      }
+    },
+    "isSubscribed": true
+  },
+  {
+    "name": "parth",
+    "email": "arth@gmail.com",
+    "username": "arth",
+    "password": "a4a31d85e784f26c80a5402421deaf6f:dfa4bd9f0ddb9dee6762ab6479eaa61c89bb1f5249fd8677618c3c0a90107891205614adcedf77b9cb38dcec815d85995cb3f9da9a042c3d722f335573543a32",
+    "isSubscribed": false,
+    "progress": {
+      "story-1": {
+        "lastChapter": 2,
+        "scrollPercent": 0,
+        "updatedAt": "2026-06-03T08:43:34.610Z"
+      }
+    }
+  },
+  {
+    "name": "test",
+    "email": "test@gmail.com",
+    "username": "test23",
+    "password": "fa7494519028cbf6a5af45005002ac6e:2f8178ae3e8a867080970ae2e48c8d6e4d6aa5765d88c8c5ccda3b02cf22cff5262c391c86cb3e5cf7385b60af19b53214e1883131e98b63016c0f4f17b418c5",
+    "isSubscribed": true
+  },
+  {
+    "name": "Test12",
+    "email": "test12@gmail.com",
+    "username": "test12",
+    "password": "5374f65d407c801e8dfc5f99ef44a1e2:1b0763bcdfe292d7766c8a4f0db5fd128cdf175c3d76d58f94b171c99a40de3e15829f45be5a970878c3407f606e0aef0466f3a16da5ccd1be8fbc00b2ae92bf",
+    "isSubscribed": true,
+    "progress": {
+      "story-1": {
+        "lastChapter": 1,
+        "scrollPercent": 0,
+        "updatedAt": "2026-06-03T10:04:31.178Z"
+      }
+    }
+  },
+  {
+    "name": "Gadget",
+    "email": "maka@gmail.com",
+    "username": "maka",
+    "password": "7a9c1eb3590da43eb16a0742ac71661d:eda80e7e743354a0b9478573aea0612dcacec5cc8ebc03cd9a05c8a4f849ba28b6c6aa3ffcf005c85c03a51498d4fb15b66a3dc8d5a2cfea1f34084b069339ea",
+    "isSubscribed": true
+  },
+  {
+    "name": "Majak majak",
+    "email": "majak@hmail.com",
+    "username": "majak",
+    "password": "13124ceab63c36b7e73c8c18eda2d887:4d671e2f0a7ef36a646691f4c8ee3fa73a44a7e59b3a4f5b4ff1e5565b0df204c1d4258d6319a66fd9e0ea4ea6e5b258ebdece65012c4e835f01a70b3c2fbad3",
+    "isSubscribed": false
+  }
+]
