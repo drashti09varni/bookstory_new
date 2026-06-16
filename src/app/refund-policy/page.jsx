@@ -127,7 +127,7 @@ export default function RefundPolicyPage() {
                   womenswear001@gmail.com
                 </a>
               </li>
-              <li><strong>Mobile: 7048189052</strong> </li>
+              <li><strong>Mobile: 8980606560</strong> </li>
             </ul>
           </div>
         </div>

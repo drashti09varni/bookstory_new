@@ -44,7 +44,7 @@ export default function Navbar() {
             🏆 <strong>Subscribe now</strong> to unlock all premium Hinglish stories! <strong>Try for ₹1 today</strong>
           </span>
           <button onClick={openCheckout} className={styles.promoBtn}>
-            Subscribe for ₹1
+            Subscribe for ₹299
           </button>
         </div>
       )}
