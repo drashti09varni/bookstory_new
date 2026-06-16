@@ -3,6 +3,7 @@ import "./globals.css";
 import { AppProvider } from "@/context/AppContext";
 import Navbar from "@/components/Navbar";
 import AuthModal from "@/components/AuthModal";
+import Footer from "@/components/Footer";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -31,9 +32,11 @@ export default function RootLayout({ children }) {
       <body style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }} suppressHydrationWarning>
         <AppProvider>
           <Navbar />
+         
           <main style={{ flex: 1, display: "flex", flexDirection: "column" }}>
             {children}
           </main>
+           <Footer />
           <AuthModal />
         </AppProvider>
       </body>
