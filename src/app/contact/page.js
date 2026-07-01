@@ -69,8 +69,8 @@ export default function ContactPage() {
 
               <li>
                 <strong>Mobile:</strong>{' '}
-                <a href="tel:8980606560" className={styles.link}>
-                  8980606560
+                <a href="tel:9879898223" className={styles.link}>
+                  9879898223
                 </a>
               </li>
 
@@ -98,7 +98,7 @@ export default function ContactPage() {
             <p className={styles.text}>
               For urgent account or subscription issues, please email us at
               <strong>womenswear001@gmail.com </strong>
-              or call <strong>8980606560</strong> and include your registered email
+              or call <strong>9879898223</strong> and include your registered email
               address for faster assistance.
             </p>
           </div>
